@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+
+    <link rel="stylesheet" href="./css/snackbar-styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="main-title">
+          <span class="main-title-gradient">Welcome</span> to task 2
+        </h1>
+      </div>
+    </main>
+    <form class="form">
+  <label class="delay-lbl">
+    Delay (ms)
+    <input type="number" name="delay" id="delay-picker" required />
+  </label>
+
+  <fieldset>
+    <legend>State</legend>
+    <label>
+      <input type="radio" name="state" value="fulfilled" id="fulfilledProm" required />
+      Fulfilled
+    </label>
+    <label>
+      <input type="radio" name="state" value="rejected" id="rejectedProm" required />
+      Rejected
+    </label>
+  </fieldset>
+
+  <button type="submit">Create notification</button>
+</form>
+
+
+<script type="module" src="./js/2-snackbar.js"></script>
+</body>
+</html>
